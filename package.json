@@ -5,7 +5,8 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "dev": "node --env-file=.env index.js"
+    "dev": "node --env-file=.env index.js",
+    "create": "node --env-file=.env collections/user.js"
   },
   "author": "EstebanBriceno",
   "license": "ISC",
