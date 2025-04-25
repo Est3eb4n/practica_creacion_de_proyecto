@@ -2,8 +2,20 @@ import {client, main} from'./helpers/db.js';
 
 const db = await main();
 
-const collections = await db.listCollections().toArray();
+const users = db.collection('users');
 
-client.close();
+const data = {
+    firstName: 'Ramsey',
+    lastName: 'Anderson',
+    age:20,
+    geneder: 'M',
+    email: 'randerson@.mail.com'
+}
 
-console.log(collections);
+
+
+const result = await users.insertOne(data);
+
+console.log(result);
+
+await client.close();
