@@ -13,7 +13,6 @@ const data = {
 }
 
 
-
 const result = await users.insertOne(data);
 
 console.log(result);
