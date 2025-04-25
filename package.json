@@ -6,7 +6,7 @@
   "type": "module",
   "scripts": {
     "dev": "node --env-file=.env index.js",
-    "create": "node --env-file=.env collections/user.js"
+    "create": "node --env-file=.env collection/users.js"
   },
   "author": "EstebanBriceno",
   "license": "ISC",
