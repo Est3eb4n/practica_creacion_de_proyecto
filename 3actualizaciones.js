@@ -1,4 +1,4 @@
-import {client, main} from'./helpers/db.js';
+import {client, main} from'./collection/users.js';
 import { ObjectId } from 'mongodb';
 
 const db = await main();
