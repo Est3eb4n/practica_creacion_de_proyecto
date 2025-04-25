@@ -15,6 +15,6 @@ const data = {
 
 const result = await users.insertOne(data);
 
-console.log(result);
+console.log(result);//ola
 
 await client.close();
