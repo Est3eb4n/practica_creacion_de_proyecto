@@ -10,7 +10,7 @@ const data = {
     email: 'randerson@gmail.com'
 }
 
-const _id = new ObjectId('680b83859391967a0cd7462f');
+const _id = new ObjectId('680ba29c25ccbd424a680963');
 const result = await users.updateOne({_id}, {$set: data});
 
 console.log(result);
