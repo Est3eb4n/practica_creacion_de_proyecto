@@ -11,6 +11,7 @@
   "author": "EstebanBriceno",
   "license": "ISC",
   "devDependencies": {
+    "lodash": "4.17.21",
     "mongodb": "6.16.0"
   },
   "dependencies": {
